@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+.imageCover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(60px);
+    background-image: radial-gradient(circle,#115C6E,#115C6E);
+    z-index: -1;
+    margin-top: 20px;
+}
+
+.backImage::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    border: 1px solid #FFFFFF;
+    top: 6.5rem;
+    right: 3.8rem;
+    border-radius: .25rem;
+    z-index: -1;
+}
+
+
+
+
+.item{
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+span{
+  margin: 0px 20px;
+}
+
+
