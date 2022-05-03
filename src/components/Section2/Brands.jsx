@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Image, Text, VStack } from "@chakra-ui/react";
-import SuperHuman from "../../assets/images/superhuman.png";
+import SuperHuman from "../../assets/images/Superhuman.png";
 import CoinGecko from "../../assets/images/CoinGecko.png";
 import Binance from "../../assets/images/binance.png";
 import Cardano from "../../assets/images/Cardano.png";
