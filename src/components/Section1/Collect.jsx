@@ -11,6 +11,8 @@ import {
 import Lady from "../../assets/images/blackLady.png";
 import BlueLine1 from "../../assets/images/Vector2.png";
 import BlueLine2 from "../../assets/images/Vector3.png";
+import Button1 from "../../Utils/Button1";
+import Button2 from "../../Utils/Button2";
 
 const Collect = () => {
   return (
@@ -81,29 +83,7 @@ const Collect = () => {
           stored on a blockchain, a form of digital wallet.
         </Text>
 
-        <Button
-          colorScheme={"purple"}
-          bgImage={"linear-gradient(to right, #890DBF , #C427BD)"}
-          _hover={{
-            bgImage: "none",
-            border: "none",
-            transform: "scale(0.98)",
-          }}
-          _focus={{
-            border: "none",
-          }}
-          color={"#DFDFDF"}
-          borderTopLeftRadius={"20px"}
-          borderTopRightRadius={"2px"}
-          borderBottomRightRadius={"20px"}
-          borderBottomLeftRadius={"2px"}
-          size={"md"}
-          w={"170px"}
-          padding={"10px"}
-          sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-        >
-          Explore
-        </Button>
+        <Button1 text={"Explore"} />
 
         <Flex
           flexDirection="row"
@@ -298,35 +278,7 @@ const Collect = () => {
             <Spacer />
 
             <Box>
-              <Button
-                _hover={{
-                  bgImage: "none",
-                  border: "2px solid #E704C4",
-                  background: "transparent",
-                }}
-                _focus={{
-                  border: "2px solid #E704C4",
-                  background: "transparent",
-                }}
-                _active={{
-                  background: "transparent",
-                  border: "2px solid #fff",
-                }}
-                color={"#DFDFDF"}
-                borderTopLeftRadius={"20px"}
-                borderTopRightRadius={"2px"}
-                borderBottomRightRadius={"20px"}
-                borderBottomLeftRadius={"2px"}
-                size={"md"}
-                w={"130px"}
-                h={"50px"}
-                padding={"10px"}
-                background={"transparent"}
-                sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-                border={"2px solid #E704C4"}
-              >
-                Start Bid
-              </Button>
+              <Button2 width={"130px"} text={"Start Bid"} />
             </Box>
           </div>
         </Flex>

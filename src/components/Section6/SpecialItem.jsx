@@ -15,6 +15,7 @@ import cartoon from "../../assets/images/cartoon.jpg";
 import whitepaint from "../../assets/images/whitepaint.jpg";
 import random from "../../assets/images/random.jpg";
 import diamondShape from "../../assets/images/diamondshape.png";
+import Button2 from "../../Utils/Button2";
 
 const SpecialItem = () => {
   return (
@@ -111,42 +112,7 @@ const SpecialItem = () => {
 
             <Spacer />
 
-            <Button
-              fontSize={"15px"}
-              fontFamily={"'Ubuntu', sans-serif;"}
-              fontWeight={400}
-              color={"#DFDFDF"}
-              lineHeight={"25px"}
-              width="117px"
-              minH={"28px"}
-              textAlign={"left"}
-              _hover={{
-                bgImage: "none",
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _focus={{
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _active={{
-                background: "transparent",
-                border: "2px solid #fff",
-              }}
-              borderTopLeftRadius={"20px"}
-              borderTopRightRadius={"2px"}
-              borderBottomRightRadius={"20px"}
-              borderBottomLeftRadius={"2px"}
-              size={"md"}
-              w={"100px"}
-              h={"50px"}
-              padding={"10px"}
-              background={"transparent"}
-              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-              border={"2px solid #E704C4"}
-            >
-              Bid
-            </Button>
+            <Button2 width={"100px"} text={"Bid"} />
           </HStack>
 
           <HStack w={"100%"} px={5} pb={5}>
@@ -215,42 +181,7 @@ const SpecialItem = () => {
               </Text>
             </VStack>
             <Spacer />
-            <Button
-              fontSize={"15px"}
-              fontFamily={"'Ubuntu', sans-serif;"}
-              fontWeight={400}
-              color={"#DFDFDF"}
-              lineHeight={"25px"}
-              width="117px"
-              minH={"28px"}
-              textAlign={"left"}
-              _hover={{
-                bgImage: "none",
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _focus={{
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _active={{
-                background: "transparent",
-                border: "2px solid #fff",
-              }}
-              borderTopLeftRadius={"20px"}
-              borderTopRightRadius={"2px"}
-              borderBottomRightRadius={"20px"}
-              borderBottomLeftRadius={"2px"}
-              size={"md"}
-              w={"100px"}
-              h={"50px"}
-              padding={"10px"}
-              background={"transparent"}
-              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-              border={"2px solid #E704C4"}
-            >
-              Bid
-            </Button>
+            <Button2 width={"100px"} text={"Bid"} />
           </HStack>
 
           <HStack w={"100%"} px={5} pb={5}>
@@ -321,42 +252,7 @@ const SpecialItem = () => {
               </Text>
             </VStack>
             <Spacer />
-            <Button
-              fontSize={"15px"}
-              fontFamily={"'Ubuntu', sans-serif;"}
-              fontWeight={400}
-              color={"#DFDFDF"}
-              lineHeight={"25px"}
-              width="117px"
-              minH={"28px"}
-              textAlign={"left"}
-              _hover={{
-                bgImage: "none",
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _focus={{
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _active={{
-                background: "transparent",
-                border: "2px solid #fff",
-              }}
-              borderTopLeftRadius={"20px"}
-              borderTopRightRadius={"2px"}
-              borderBottomRightRadius={"20px"}
-              borderBottomLeftRadius={"2px"}
-              size={"md"}
-              w={"100px"}
-              h={"50px"}
-              padding={"10px"}
-              background={"transparent"}
-              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-              border={"2px solid #E704C4"}
-            >
-              Bid
-            </Button>
+            <Button2 width={"100px"} text={"Bid"} />
           </HStack>
 
           <HStack w={"100%"} px={5} pb={5}>
@@ -426,42 +322,7 @@ const SpecialItem = () => {
               </Text>
             </VStack>
             <Spacer />
-            <Button
-              fontSize={"15px"}
-              fontFamily={"'Ubuntu', sans-serif;"}
-              fontWeight={400}
-              color={"#DFDFDF"}
-              lineHeight={"25px"}
-              width="117px"
-              minH={"28px"}
-              textAlign={"left"}
-              _hover={{
-                bgImage: "none",
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _focus={{
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _active={{
-                background: "transparent",
-                border: "2px solid #fff",
-              }}
-              borderTopLeftRadius={"20px"}
-              borderTopRightRadius={"2px"}
-              borderBottomRightRadius={"20px"}
-              borderBottomLeftRadius={"2px"}
-              size={"md"}
-              w={"100px"}
-              h={"50px"}
-              padding={"10px"}
-              background={"transparent"}
-              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-              border={"2px solid #E704C4"}
-            >
-              Bid
-            </Button>
+            <Button2 width={"100px"} text={"Bid"} />
           </HStack>
 
           <HStack w={"100%"} px={5} pb={5}>
@@ -531,42 +392,7 @@ const SpecialItem = () => {
               </Text>
             </VStack>
             <Spacer />
-            <Button
-              fontSize={"15px"}
-              fontFamily={"'Ubuntu', sans-serif;"}
-              fontWeight={400}
-              color={"#DFDFDF"}
-              lineHeight={"25px"}
-              width="117px"
-              minH={"28px"}
-              textAlign={"left"}
-              _hover={{
-                bgImage: "none",
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _focus={{
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _active={{
-                background: "transparent",
-                border: "2px solid #fff",
-              }}
-              borderTopLeftRadius={"20px"}
-              borderTopRightRadius={"2px"}
-              borderBottomRightRadius={"20px"}
-              borderBottomLeftRadius={"2px"}
-              size={"md"}
-              w={"100px"}
-              h={"50px"}
-              padding={"10px"}
-              background={"transparent"}
-              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-              border={"2px solid #E704C4"}
-            >
-              Bid
-            </Button>
+            <Button2 width={"100px"} text={"Bid"} />
           </HStack>
 
           <HStack w={"100%"} px={5} pb={5}>
@@ -637,42 +463,7 @@ const SpecialItem = () => {
             </VStack>
             <Spacer />
 
-            <Button
-              fontSize={"15px"}
-              fontFamily={"'Ubuntu', sans-serif;"}
-              fontWeight={400}
-              color={"#DFDFDF"}
-              lineHeight={"25px"}
-              width="117px"
-              minH={"28px"}
-              textAlign={"left"}
-              _hover={{
-                bgImage: "none",
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _focus={{
-                border: "2px solid #E704C4",
-                background: "transparent",
-              }}
-              _active={{
-                background: "transparent",
-                border: "2px solid #fff",
-              }}
-              borderTopLeftRadius={"20px"}
-              borderTopRightRadius={"2px"}
-              borderBottomRightRadius={"20px"}
-              borderBottomLeftRadius={"2px"}
-              size={"md"}
-              w={"100px"}
-              h={"50px"}
-              padding={"10px"}
-              background={"transparent"}
-              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-              border={"2px solid #E704C4"}
-            >
-              Bid
-            </Button>
+            <Button2 width={"100px"} text={"Bid"} />
           </HStack>
 
           <HStack w={"100%"} px={5} pb={5}>

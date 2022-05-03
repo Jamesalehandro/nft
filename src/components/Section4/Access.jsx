@@ -4,6 +4,7 @@ import Wallpaint from "../../assets/images/wallpaint.png";
 import paintedlady from "../../assets/images/paintedlady.png";
 import doorpaint from "../../assets/images/doorpaint.png";
 import horizonpaint from "../../assets/images/horizonpaint.png";
+import Button1 from "../../Utils/Button1";
 
 const Access = () => {
   return (
@@ -67,29 +68,7 @@ const Access = () => {
           stored on a blockchain, a form of digital currency
         </Text>
 
-        <Button
-          colorScheme={"purple"}
-          bgImage={"linear-gradient(to right, #890DBF , #C427BD)"}
-          _hover={{
-            bgImage: "none",
-            border: "none",
-            transform: "scale(0.98)",
-          }}
-          _focus={{
-            border: "none",
-          }}
-          color={"#DFDFDF"}
-          borderTopLeftRadius={"20px"}
-          borderTopRightRadius={"2px"}
-          borderBottomRightRadius={"20px"}
-          borderBottomLeftRadius={"2px"}
-          size={"md"}
-          w={"170px"}
-          padding={"10px"}
-          sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
-        >
-          See More
-        </Button>
+        <Button1 text={"See more"} />
       </VStack>
     </HStack>
   );
