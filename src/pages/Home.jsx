@@ -6,6 +6,7 @@ import Brands from "../components/Section2/Brands";
 import CreateandSell from "../components/Section3/CreateandSell";
 import Access from "../components/Section4/Access";
 import GuideYou from "../components/Section5/GuideYou";
+import SpecialItem from "../components/Section6/SpecialItem";
 
 const Home = () => {
   return (
@@ -35,6 +36,9 @@ const Home = () => {
 
       {/* We guide you section */}
       <GuideYou />
+
+      {/* Special Section */}
+      <SpecialItem />
     </Container>
   );
 };

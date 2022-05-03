@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Flex,
-  HStack,
-  Image,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Button, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import Wallpaint from "../../assets/images/wallpaint.png";
 import paintedlady from "../../assets/images/paintedlady.png";
 import doorpaint from "../../assets/images/doorpaint.png";
