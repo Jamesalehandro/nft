@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Button,
   Flex,
@@ -7,19 +8,24 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import React from "react";
+import bicycle from "../../assets/images/bicycle.jpg";
+import surprisedpaint from "../../assets/images/surprised.jpg";
+import cat from "../../assets/images/cat.jpg";
+import cartoon from "../../assets/images/cartoon.jpg";
+import whitepaint from "../../assets/images/whitepaint.jpg";
+import random from "../../assets/images/random.jpg";
+import diamondShape from "../../assets/images/diamondshape.png";
 
 const SpecialItem = () => {
   return (
     <VStack
       color="#DFDFDF"
-      border="2px solid blue"
       marginLeft={"150px"}
       marginRight={"150px"}
       mt={20}
       minH={"200px"}
     >
-      <HStack width={"100%"} border="2px solid green" marginBottom={"80px"}>
+      <HStack width={"100%"} marginBottom={"50px"}>
         <Text
           fontFamily={" Orbitron, sans-serif"}
           textAlign={"left"}
@@ -47,137 +53,655 @@ const SpecialItem = () => {
         </Text>
       </HStack>
 
-      <HStack>
-        <Text>Trending</Text>
-        <Text>Popular</Text>
-        <Text>Favourites</Text>
-        <Text>Saved</Text>
+      <HStack
+        width={"100%"}
+        align="center"
+        justify={"space-around"}
+        fontSize={"18px"}
+        fontFamily={"'Ubuntu', sans-serif;"}
+        fontWeight={400}
+        color={"#DFDFDF"}
+        lineHeight={"22px"}
+        verticalAlign={"top"}
+        paddingBottom={"40px"}
+      >
+        <Text cursor={"pointer"}>Trending</Text>
+        <Text cursor={"pointer"}>Popular</Text>
+        <Text cursor={"pointer"}>Favourites</Text>
+        <Text cursor={"pointer"}>Saved</Text>
       </HStack>
 
-      <Flex>
-        <VStack>
-          <Image />
+      <Flex
+        width={"100%"}
+        flexWrap={"wrap"}
+        align={"center"}
+        justify={"space-between"}
+        gap={10}
+      >
+        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+          <Image src={bicycle} width={"100%"} borderRadius={"20px"} />
 
-          <HStack>
+          <HStack w={"100%"} px={5} py={5}>
             <VStack>
-              <Text>Serickism.</Text>
-              <Text>By Angie_00</Text>
+              <Text
+                fontSize={"20px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={700}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                Serickism.
+              </Text>
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                By Angie_00
+              </Text>
             </VStack>
 
-            <Button>Bid</Button>
+            <Spacer />
+
+            <Button
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={400}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              width="117px"
+              minH={"28px"}
+              textAlign={"left"}
+              _hover={{
+                bgImage: "none",
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _focus={{
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _active={{
+                background: "transparent",
+                border: "2px solid #fff",
+              }}
+              borderTopLeftRadius={"20px"}
+              borderTopRightRadius={"2px"}
+              borderBottomRightRadius={"20px"}
+              borderBottomLeftRadius={"2px"}
+              size={"md"}
+              w={"100px"}
+              h={"50px"}
+              padding={"10px"}
+              background={"transparent"}
+              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
+              border={"2px solid #E704C4"}
+            >
+              Bid
+            </Button>
           </HStack>
 
-          <HStack>
-            <Flex>
-              <Image />
-              <Text>0.23ETH</Text>
+          <HStack w={"100%"} px={5} pb={5}>
+            <Flex align={"center"} gap={3}>
+              <Image src={diamondShape} />
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                0.23ETH
+              </Text>
             </Flex>
-            <Text>$8,976</Text>
+            <Spacer />
+            <Text
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={700}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              minH={"28px"}
+              textAlign={"left"}
+            >
+              $8,976
+            </Text>
           </HStack>
         </VStack>
 
-        <VStack>
-          <Image />
+        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+          <Image
+            src={surprisedpaint}
+            width={"100%"}
+            height={"300px"}
+            borderRadius={"20px"}
+          />
 
-          <HStack>
+          <HStack w={"100%"} px={5} py={5}>
             <VStack>
-              <Text>Serickism.</Text>
-              <Text>By Angie_00</Text>
+              <Text
+                fontSize={"20px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={700}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                Serickism.
+              </Text>
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                By Angie_00
+              </Text>
             </VStack>
-
-            <Button>Bid</Button>
+            <Spacer />
+            <Button
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={400}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              width="117px"
+              minH={"28px"}
+              textAlign={"left"}
+              _hover={{
+                bgImage: "none",
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _focus={{
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _active={{
+                background: "transparent",
+                border: "2px solid #fff",
+              }}
+              borderTopLeftRadius={"20px"}
+              borderTopRightRadius={"2px"}
+              borderBottomRightRadius={"20px"}
+              borderBottomLeftRadius={"2px"}
+              size={"md"}
+              w={"100px"}
+              h={"50px"}
+              padding={"10px"}
+              background={"transparent"}
+              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
+              border={"2px solid #E704C4"}
+            >
+              Bid
+            </Button>
           </HStack>
 
-          <HStack>
-            <Flex>
-              <Image />
-              <Text>0.23ETH</Text>
+          <HStack w={"100%"} px={5} pb={5}>
+            <Flex align={"center"} gap={3}>
+              <Image src={diamondShape} />
+
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                0.23ETH
+              </Text>
             </Flex>
-            <Text>$8,976</Text>
+            <Spacer />
+            <Text
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={700}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              minH={"28px"}
+              textAlign={"left"}
+            >
+              $8,976
+            </Text>
           </HStack>
         </VStack>
 
-        <VStack>
-          <Image />
+        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+          <Image
+            src={cat}
+            width={"100%"}
+            height={"300px"}
+            borderRadius={"20px"}
+          />
 
-          <HStack>
+          <HStack w={"100%"} px={5} py={5}>
             <VStack>
-              <Text>Serickism.</Text>
-              <Text>By Angie_00</Text>
-            </VStack>
+              <Text
+                fontSize={"20px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={700}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                Serickism.
+              </Text>
 
-            <Button>Bid</Button>
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                By Angie_00
+              </Text>
+            </VStack>
+            <Spacer />
+            <Button
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={400}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              width="117px"
+              minH={"28px"}
+              textAlign={"left"}
+              _hover={{
+                bgImage: "none",
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _focus={{
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _active={{
+                background: "transparent",
+                border: "2px solid #fff",
+              }}
+              borderTopLeftRadius={"20px"}
+              borderTopRightRadius={"2px"}
+              borderBottomRightRadius={"20px"}
+              borderBottomLeftRadius={"2px"}
+              size={"md"}
+              w={"100px"}
+              h={"50px"}
+              padding={"10px"}
+              background={"transparent"}
+              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
+              border={"2px solid #E704C4"}
+            >
+              Bid
+            </Button>
           </HStack>
 
-          <HStack>
-            <Flex>
-              <Image />
-              <Text>0.23ETH</Text>
+          <HStack w={"100%"} px={5} pb={5}>
+            <Flex align={"center"} gap={3}>
+              <Image src={diamondShape} />
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                0.23ETH
+              </Text>
             </Flex>
-            <Text>$8,976</Text>
+            <Spacer />
+            <Text
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={700}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              minH={"28px"}
+              textAlign={"left"}
+            >
+              $8,976
+            </Text>
           </HStack>
         </VStack>
 
-        <VStack>
-          <Image />
+        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+          <Image
+            src={cartoon}
+            width={"100%"}
+            borderRadius={"20px"}
+            height={"300px"}
+          />
 
-          <HStack>
+          <HStack w={"100%"} px={5} py={5}>
             <VStack>
-              <Text>Serickism.</Text>
-              <Text>By Angie_00</Text>
-            </VStack>
+              <Text
+                fontSize={"20px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={700}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                Serickism.
+              </Text>
 
-            <Button>Bid</Button>
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                By Angie_00
+              </Text>
+            </VStack>
+            <Spacer />
+            <Button
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={400}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              width="117px"
+              minH={"28px"}
+              textAlign={"left"}
+              _hover={{
+                bgImage: "none",
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _focus={{
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _active={{
+                background: "transparent",
+                border: "2px solid #fff",
+              }}
+              borderTopLeftRadius={"20px"}
+              borderTopRightRadius={"2px"}
+              borderBottomRightRadius={"20px"}
+              borderBottomLeftRadius={"2px"}
+              size={"md"}
+              w={"100px"}
+              h={"50px"}
+              padding={"10px"}
+              background={"transparent"}
+              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
+              border={"2px solid #E704C4"}
+            >
+              Bid
+            </Button>
           </HStack>
 
-          <HStack>
-            <Flex>
-              <Image />
-              <Text>0.23ETH</Text>
+          <HStack w={"100%"} px={5} pb={5}>
+            <Flex align={"center"} gap={3}>
+              <Image src={diamondShape} />
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                0.23ETH
+              </Text>
             </Flex>
-            <Text>$8,976</Text>
+            <Spacer />
+            <Text
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={700}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              minH={"28px"}
+              textAlign={"left"}
+            >
+              $8,976
+            </Text>
           </HStack>
         </VStack>
 
-        <VStack>
-          <Image />
+        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+          <Image
+            src={whitepaint}
+            width={"100%"}
+            borderRadius={"20px"}
+            height={"300px"}
+          />
 
-          <HStack>
+          <HStack w={"100%"} px={5} py={5}>
             <VStack>
-              <Text>Serickism.</Text>
-              <Text>By Angie_00</Text>
-            </VStack>
+              <Text
+                fontSize={"20px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={700}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                Serickism.
+              </Text>
 
-            <Button>Bid</Button>
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                By Angie_00
+              </Text>
+            </VStack>
+            <Spacer />
+            <Button
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={400}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              width="117px"
+              minH={"28px"}
+              textAlign={"left"}
+              _hover={{
+                bgImage: "none",
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _focus={{
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _active={{
+                background: "transparent",
+                border: "2px solid #fff",
+              }}
+              borderTopLeftRadius={"20px"}
+              borderTopRightRadius={"2px"}
+              borderBottomRightRadius={"20px"}
+              borderBottomLeftRadius={"2px"}
+              size={"md"}
+              w={"100px"}
+              h={"50px"}
+              padding={"10px"}
+              background={"transparent"}
+              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
+              border={"2px solid #E704C4"}
+            >
+              Bid
+            </Button>
           </HStack>
 
-          <HStack>
-            <Flex>
-              <Image />
-              <Text>0.23ETH</Text>
+          <HStack w={"100%"} px={5} pb={5}>
+            <Flex align={"center"} gap={3}>
+              <Image src={diamondShape} />
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                0.23ETH
+              </Text>
             </Flex>
-            <Text>$8,976</Text>
+            <Spacer />
+            <Text
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={700}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              minH={"28px"}
+              textAlign={"left"}
+            >
+              $8,976
+            </Text>
           </HStack>
         </VStack>
 
-        <VStack>
-          <Image />
+        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+          <Image
+            src={random}
+            width={"100%"}
+            borderRadius={"20px"}
+            height={"300px"}
+          />
 
-          <HStack>
+          <HStack w={"100%"} px={5} py={5}>
             <VStack>
-              <Text>Serickism.</Text>
-              <Text>By Angie_00</Text>
-            </VStack>
+              <Text
+                fontSize={"20px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={700}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                Serickism.
+              </Text>
 
-            <Button>Bid</Button>
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                width="117px"
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                By Angie_00
+              </Text>
+            </VStack>
+            <Spacer />
+
+            <Button
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={400}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              width="117px"
+              minH={"28px"}
+              textAlign={"left"}
+              _hover={{
+                bgImage: "none",
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _focus={{
+                border: "2px solid #E704C4",
+                background: "transparent",
+              }}
+              _active={{
+                background: "transparent",
+                border: "2px solid #fff",
+              }}
+              borderTopLeftRadius={"20px"}
+              borderTopRightRadius={"2px"}
+              borderBottomRightRadius={"20px"}
+              borderBottomLeftRadius={"2px"}
+              size={"md"}
+              w={"100px"}
+              h={"50px"}
+              padding={"10px"}
+              background={"transparent"}
+              sx={{ transition: "all .5s ease-in-out", cursor: "pointer" }}
+              border={"2px solid #E704C4"}
+            >
+              Bid
+            </Button>
           </HStack>
 
-          <HStack>
-            <Flex>
-              <Image />
-              <Text>0.23ETH</Text>
+          <HStack w={"100%"} px={5} pb={5}>
+            <Flex align={"center"} gap={3}>
+              <Image src={diamondShape} />
+              <Text
+                fontSize={"15px"}
+                fontFamily={"'Ubuntu', sans-serif;"}
+                fontWeight={400}
+                color={"#DFDFDF"}
+                lineHeight={"25px"}
+                minH={"28px"}
+                textAlign={"left"}
+              >
+                0.23ETH
+              </Text>
             </Flex>
-            <Text>$8,976</Text>
+            <Spacer />
+            <Text
+              fontSize={"15px"}
+              fontFamily={"'Ubuntu', sans-serif;"}
+              fontWeight={700}
+              color={"#DFDFDF"}
+              lineHeight={"25px"}
+              minH={"28px"}
+              textAlign={"left"}
+            >
+              $8,976
+            </Text>
           </HStack>
         </VStack>
       </Flex>
