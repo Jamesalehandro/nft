@@ -59,9 +59,9 @@ const Access = () => {
           fontWeight={400}
           color={"#DFDFDF"}
           lineHeight={"35px"}
+          textAlign={"left"}
           width="510px"
           minH={"120px"}
-          textAlign={"left"}
           paddingBottom={"50px"}
         >
           A non-fungible token (NFT) is a non-interchangeable unit of data

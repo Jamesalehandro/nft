@@ -7,6 +7,7 @@ import CreateandSell from "../components/Section3/CreateandSell";
 import Access from "../components/Section4/Access";
 import GuideYou from "../components/Section5/GuideYou";
 import SpecialItem from "../components/Section6/SpecialItem";
+import TopArtist from "../components/Section7/TopArtist";
 
 const Home = () => {
   return (
@@ -39,6 +40,9 @@ const Home = () => {
 
       {/* Special Section */}
       <SpecialItem />
+
+      {/* Top Artist Section */}
+      <TopArtist />
     </Container>
   );
 };
