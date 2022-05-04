@@ -9,6 +9,7 @@ import GuideYou from "../components/Section5/GuideYou";
 import SpecialItem from "../components/Section6/SpecialItem";
 import TopArtist from "../components/Section7/TopArtist";
 import NeverMiss from "../components/Section8/NeverMiss";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -47,6 +48,9 @@ const Home = () => {
 
       {/* Never Miss Section */}
       <NeverMiss />
+
+      {/* Footer */}
+      <Footer />
     </Container>
   );
 };
