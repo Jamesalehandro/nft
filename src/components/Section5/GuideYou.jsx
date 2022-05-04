@@ -10,7 +10,7 @@ const GuideYou = () => {
       marginRight={"150px"}
       justifyContent={"space-between"}
       // mb={20}
-      mt={20}
+      mt={"150px"}
       color={"#DFDFDF"}
       minHeight={"380px"}
       alignItems={"center"}

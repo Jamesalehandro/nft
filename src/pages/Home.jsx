@@ -8,6 +8,7 @@ import Access from "../components/Section4/Access";
 import GuideYou from "../components/Section5/GuideYou";
 import SpecialItem from "../components/Section6/SpecialItem";
 import TopArtist from "../components/Section7/TopArtist";
+import NeverMiss from "../components/Section8/NeverMiss";
 
 const Home = () => {
   return (
@@ -43,6 +44,9 @@ const Home = () => {
 
       {/* Top Artist Section */}
       <TopArtist />
+
+      {/* Never Miss Section */}
+      <NeverMiss />
     </Container>
   );
 };

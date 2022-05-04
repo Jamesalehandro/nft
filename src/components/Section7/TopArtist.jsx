@@ -14,11 +14,13 @@ const TopArtist = () => {
     <VStack
       width={"100%"}
       align="flex-start"
-      mt={20}
+      mt={"150px"}
       paddingLeft={"150px"}
       paddingRight={"150px"}
       minH={"150px"}
+      position="relative"
     >
+      <div className="filterblur"></div>
       <Text
         fontFamily={" Orbitron, sans-serif"}
         textAlign={"left"}

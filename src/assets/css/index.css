@@ -10,10 +10,20 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    filter: blur(60px);
+    filter: blur(120px);
     background-image: radial-gradient(circle,#115C6E,#115C6E);
     z-index: -1;
     margin-top: 20px;
+}
+
+.filterblur{
+  width: 50%;
+  height: 50%;
+  border: 2px solid red;
+  position: absolute;
+  right: 200px;
+  filter: blur(450px);
+  background: radial-gradient(circle, #DA30BC -6.36%, #7E08C0 101.72%);
 }
 
 .backImage::after{

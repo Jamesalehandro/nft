@@ -23,7 +23,7 @@ const SpecialItem = () => {
       color="#DFDFDF"
       marginLeft={"150px"}
       marginRight={"150px"}
-      mt={20}
+      mt={"170px"}
       minH={"200px"}
     >
       <HStack width={"100%"} marginBottom={"50px"}>
