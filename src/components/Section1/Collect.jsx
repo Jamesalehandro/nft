@@ -45,6 +45,11 @@ const Collect = () => {
           fontWeight={600}
           mb={5.5}
           lineHeight={"70px"}
+          sx={{
+            "@media (min-width: 1440px) and (max-width: 1919px)": {
+              w: "100%",
+            },
+          }}
         >
           Collect the
           <span display="inline" mx={4}>
@@ -184,7 +189,7 @@ const Collect = () => {
         <Flex
           flexDirection={"column"}
           w={"451px"}
-          h={"186px"}
+          minH={"186px"}
           position="absolute"
           zIndex={3}
           sx={{
@@ -194,6 +199,11 @@ const Collect = () => {
               " linear-gradient(92.17deg, #EFEFEF -3.11%, rgba(239, 239, 239, 0.5) -3.1%, rgba(239, 239, 239, 0.09) 106.54%)",
             WebkitBackdropFilter: "blur(5px)",
             backdropFilter: "blur(5px)",
+            "@media (min-width: 1440px) and (max-width: 1919px)": {
+              w: "400px",
+              left: "1.7rem",
+              bottom: "-5.2rem",
+            },
           }}
         >
           <div className="item">

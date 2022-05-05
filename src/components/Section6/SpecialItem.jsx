@@ -79,7 +79,16 @@ const SpecialItem = () => {
         justify={"space-between"}
         gap={10}
       >
-        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+        <VStack
+          w={"31%"}
+          border="3px solid #00556C"
+          borderRadius={"20px"}
+          sx={{
+            "@media (min-width:1440px)": {
+              w: "30%",
+            },
+          }}
+        >
           <Image src={bicycle} width={"100%"} borderRadius={"20px"} />
 
           <HStack w={"100%"} px={5} py={5}>
@@ -145,7 +154,16 @@ const SpecialItem = () => {
           </HStack>
         </VStack>
 
-        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+        <VStack
+          w={"31%"}
+          border="3px solid #00556C"
+          borderRadius={"20px"}
+          sx={{
+            "@media (min-width:1440px)": {
+              w: "30%",
+            },
+          }}
+        >
           <Image
             src={surprisedpaint}
             width={"100%"}
@@ -215,7 +233,16 @@ const SpecialItem = () => {
           </HStack>
         </VStack>
 
-        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+        <VStack
+          w={"31%"}
+          border="3px solid #00556C"
+          borderRadius={"20px"}
+          sx={{
+            "@media (min-width:1440px)": {
+              w: "30%",
+            },
+          }}
+        >
           <Image
             src={cat}
             width={"100%"}
@@ -285,7 +312,16 @@ const SpecialItem = () => {
           </HStack>
         </VStack>
 
-        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+        <VStack
+          w={"31%"}
+          border="3px solid #00556C"
+          borderRadius={"20px"}
+          sx={{
+            "@media (min-width:1440px)": {
+              w: "30%",
+            },
+          }}
+        >
           <Image
             src={cartoon}
             width={"100%"}
@@ -355,7 +391,16 @@ const SpecialItem = () => {
           </HStack>
         </VStack>
 
-        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+        <VStack
+          w={"31%"}
+          border="3px solid #00556C"
+          borderRadius={"20px"}
+          sx={{
+            "@media (min-width:1440px)": {
+              w: "30%",
+            },
+          }}
+        >
           <Image
             src={whitepaint}
             width={"100%"}

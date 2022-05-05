@@ -9,7 +9,6 @@ const GuideYou = () => {
       marginLeft={"150px"}
       marginRight={"150px"}
       justifyContent={"space-between"}
-      // mb={20}
       mt={"150px"}
       color={"#DFDFDF"}
       minHeight={"380px"}
@@ -17,6 +16,11 @@ const GuideYou = () => {
       px={10}
       background="linear-gradient(92.16deg, rgba(12, 101, 121, 0.6) -29.49%, rgba(3, 48, 94, 0.43) 133.59%)"
       borderRadius={"20px"}
+      sx={{
+        "@media (min-width:1440px)": {
+          gap: 10,
+        },
+      }}
     >
       <Text
         fontFamily={" Orbitron, sans-serif"}

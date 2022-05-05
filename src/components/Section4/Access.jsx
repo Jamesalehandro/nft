@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import Wallpaint from "../../assets/images/wallpaint.png";
 import paintedlady from "../../assets/images/paintedlady.png";
 import doorpaint from "../../assets/images/doorpaint.png";
@@ -18,7 +18,17 @@ const Access = () => {
       pt={20}
     >
       {/* Merged Images */}
-      <Flex flexWrap={"wrap"} width="50%" minH={"100px"} position="relative">
+      <Flex
+        flexWrap={"wrap"}
+        width="50%"
+        minH={"100px"}
+        position="relative"
+        sx={{
+          "@media (min-width:1440px) and (max-width:1919px)": {
+            width: "60%",
+          },
+        }}
+      >
         <Image src={Wallpaint} zIndex={2} />
         <Image src={paintedlady} zIndex={2} />
         <Image src={doorpaint} zIndex={3} />
@@ -36,6 +46,11 @@ const Access = () => {
         minH={"100px"}
         position="relative"
         alignItems={"flex-start"}
+        sx={{
+          "@media (min-width:1440px) and (max-width:1919px)": {
+            width: "40%",
+          },
+        }}
       >
         <Text
           fontFamily={" Orbitron, sans-serif"}

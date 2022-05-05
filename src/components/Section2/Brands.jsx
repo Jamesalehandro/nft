@@ -9,7 +9,7 @@ const Brands = () => {
   return (
     <Box
       mb={20}
-      mt={8}
+      mt={"100px"}
       color={"#DFDFDF"}
       display="flex"
       flexDirection="column"

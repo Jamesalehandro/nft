@@ -30,7 +30,16 @@ const CreateandSell = () => {
       >
         Create and sell your NFT
       </Text>
-      <Flex width="100%" alignItems={"center"} justify={"space-between"}>
+      <Flex
+        width="100%"
+        alignItems={"center"}
+        justify={"space-between"}
+        sx={{
+          "@media (min-width:1440px) and (max-width:1919px)": {
+            gap: 6,
+          },
+        }}
+      >
         <VStack
           w={"378px"}
           minH={"313px"}
