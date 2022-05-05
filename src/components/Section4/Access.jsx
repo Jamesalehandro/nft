@@ -16,6 +16,12 @@ const Access = () => {
       mb={20}
       mt={20}
       pt={20}
+      sx={{
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          pl: 20,
+          pr: 20,
+        },
+      }}
     >
       {/* Merged Images */}
       <Flex
@@ -24,6 +30,9 @@ const Access = () => {
         minH={"100px"}
         position="relative"
         sx={{
+          "@media (min-width: 1280px) and (max-width: 1439px)": {
+            width: "60%",
+          },
           "@media (min-width:1440px) and (max-width:1919px)": {
             width: "60%",
           },
@@ -50,6 +59,9 @@ const Access = () => {
           "@media (min-width:1440px) and (max-width:1919px)": {
             width: "40%",
           },
+          "@media (min-width: 1280px) and (max-width: 1439px)": {
+            width: "40%",
+          },
         }}
       >
         <Text
@@ -64,6 +76,12 @@ const Access = () => {
           width="610px"
           minH={"120px"}
           pb={10}
+          sx={{
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              fontSize: "30px",
+              width: "100%",
+            },
+          }}
         >
           Get acess to all the best articules on nft
         </Text>
@@ -78,6 +96,12 @@ const Access = () => {
           width="510px"
           minH={"120px"}
           paddingBottom={"50px"}
+          sx={{
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              fontSize: "20px",
+              width: "100%",
+            },
+          }}
         >
           A non-fungible token (NFT) is a non-interchangeable unit of data
           stored on a blockchain, a form of digital currency

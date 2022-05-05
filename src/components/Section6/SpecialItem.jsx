@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Button,
-  Flex,
-  HStack,
-  Image,
-  Spacer,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Flex, HStack, Image, Spacer, Text, VStack } from "@chakra-ui/react";
 import bicycle from "../../assets/images/bicycle.jpg";
 import surprisedpaint from "../../assets/images/surprised.jpg";
 import cat from "../../assets/images/cat.jpg";
@@ -25,6 +17,12 @@ const SpecialItem = () => {
       marginRight={"150px"}
       mt={"170px"}
       minH={"200px"}
+      sx={{
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          ml: 20,
+          mr: 20,
+        },
+      }}
     >
       <HStack width={"100%"} marginBottom={"50px"}>
         <Text
@@ -84,12 +82,27 @@ const SpecialItem = () => {
           border="3px solid #00556C"
           borderRadius={"20px"}
           sx={{
-            "@media (min-width:1440px)": {
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "30%",
+            },
+            "@media (min-width:1440px) and (max-width:1919px)": {
               w: "30%",
             },
           }}
         >
-          <Image src={bicycle} width={"100%"} borderRadius={"20px"} />
+          <Image
+            src={bicycle}
+            width={"100%"}
+            borderRadius={"20px"}
+            sx={{
+              "@media (min-width: 1280px) and (max-width: 1439px)": {
+                h: "300px",
+              },
+              "@media (min-width:1440px) and (max-width:1919px)": {
+                h: "300px",
+              },
+            }}
+          />
 
           <HStack w={"100%"} px={5} py={5}>
             <VStack>
@@ -159,7 +172,10 @@ const SpecialItem = () => {
           border="3px solid #00556C"
           borderRadius={"20px"}
           sx={{
-            "@media (min-width:1440px)": {
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "30%",
+            },
+            "@media (min-width:1440px) and (max-width:1919px)": {
               w: "30%",
             },
           }}
@@ -238,7 +254,10 @@ const SpecialItem = () => {
           border="3px solid #00556C"
           borderRadius={"20px"}
           sx={{
-            "@media (min-width:1440px)": {
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "30%",
+            },
+            "@media (min-width:1440px) and (max-width:1919px)": {
               w: "30%",
             },
           }}
@@ -317,7 +336,10 @@ const SpecialItem = () => {
           border="3px solid #00556C"
           borderRadius={"20px"}
           sx={{
-            "@media (min-width:1440px)": {
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "30%",
+            },
+            "@media (min-width:1440px) and (max-width:1919px)": {
               w: "30%",
             },
           }}
@@ -396,7 +418,10 @@ const SpecialItem = () => {
           border="3px solid #00556C"
           borderRadius={"20px"}
           sx={{
-            "@media (min-width:1440px)": {
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "30%",
+            },
+            "@media (min-width:1440px) and (max-width:1919px)": {
               w: "30%",
             },
           }}
@@ -470,7 +495,19 @@ const SpecialItem = () => {
           </HStack>
         </VStack>
 
-        <VStack w={"31%"} border="3px solid #00556C" borderRadius={"20px"}>
+        <VStack
+          w={"31%"}
+          border="3px solid #00556C"
+          borderRadius={"20px"}
+          sx={{
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "30%",
+            },
+            "@media (min-width:1440px) and (max-width:1919px)": {
+              w: "30%",
+            },
+          }}
+        >
           <Image
             src={random}
             width={"100%"}

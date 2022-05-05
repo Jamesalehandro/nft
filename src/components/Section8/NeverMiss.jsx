@@ -16,6 +16,13 @@ const NeverMiss = () => {
       paddingRight={"150px"}
       minH={"150px"}
       position="relative"
+      sx={{
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          pl: 20,
+          pr: 20,
+          mt: 20,
+        },
+      }}
     >
       <Text
         fontFamily={" Orbitron, sans-serif"}
@@ -44,7 +51,16 @@ const NeverMiss = () => {
         background=" linear-gradient(88.4deg, #EFEFEF -0.06%, rgba(239, 239, 239, 0.17) -0.05%, rgba(239, 239, 239, 0.1) 99.83%)"
         borderRadius={"20px"}
       >
-        <VStack align="flex-start" gap={10} mr={10}>
+        <VStack
+          align="flex-start"
+          gap={10}
+          mr={10}
+          sx={{
+            "@media (min-width:1440px) and (max-width:1919px)": {
+              marginRight: "0",
+            },
+          }}
+        >
           <Text
             fontSize={"30px"}
             fontFamily={"'Ubuntu', sans-serif;"}
@@ -62,7 +78,19 @@ const NeverMiss = () => {
         </VStack>
 
         <Box>
-          <Image src={Diamond} marginLeft={"100px"} marginRight={"100px"} />
+          <Image
+            src={Diamond}
+            marginLeft={"100px"}
+            marginRight={"100px"}
+            sx={{
+              "@media (min-width: 1280px) and (max-width: 1439px)": {
+                marginLeft: "0",
+              },
+              "@media (min-width:1440px) and (max-width:1919px)": {
+                marginLeft: "0",
+              },
+            }}
+          />
         </Box>
 
         <VStack align={"flex-start"} gap={10} width={"40%"}>
@@ -74,7 +102,7 @@ const NeverMiss = () => {
             lineHeight={"55px"}
             textAlign={"left"}
             width="373px"
-            minH={"120px"}
+            minH={"80px"}
           >
             Latest winners
           </Text>

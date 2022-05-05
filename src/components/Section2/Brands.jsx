@@ -17,6 +17,12 @@ const Brands = () => {
       justifyContent={"center"}
       paddingLeft={"150px"}
       paddingRight={"150px"}
+      sx={{
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          pl: 20,
+          pr: 20,
+        },
+      }}
     >
       <Text
         fontFamily={" Orbitron, sans-serif"}

@@ -17,6 +17,12 @@ const CreateandSell = () => {
       paddingLeft={"150px"}
       paddingRight={"150px"}
       pt={10}
+      sx={{
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          pl: 20,
+          pr: 20,
+        },
+      }}
     >
       <Text
         fontFamily={" Orbitron, sans-serif"}
@@ -35,6 +41,10 @@ const CreateandSell = () => {
         alignItems={"center"}
         justify={"space-between"}
         sx={{
+          "@media (min-width: 1280px) and (max-width: 1439px)": {
+            gap: 6,
+          },
+
           "@media (min-width:1440px) and (max-width:1919px)": {
             gap: 6,
           },

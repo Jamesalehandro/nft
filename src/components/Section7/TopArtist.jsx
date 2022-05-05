@@ -19,6 +19,12 @@ const TopArtist = () => {
       paddingRight={"150px"}
       minH={"150px"}
       position="relative"
+      sx={{
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          pl: 20,
+          pr: 20,
+        },
+      }}
     >
       <div className="filterblur"></div>
       <Text

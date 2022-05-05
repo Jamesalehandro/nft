@@ -17,7 +17,12 @@ const GuideYou = () => {
       background="linear-gradient(92.16deg, rgba(12, 101, 121, 0.6) -29.49%, rgba(3, 48, 94, 0.43) 133.59%)"
       borderRadius={"20px"}
       sx={{
-        "@media (min-width:1440px)": {
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          ml: 20,
+          gap: 10,
+          mr: 20,
+        },
+        "@media (min-width:1440px) and (max-width:1919px)": {
           gap: 10,
         },
       }}

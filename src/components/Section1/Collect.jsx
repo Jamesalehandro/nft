@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Flex,
-  Image,
-  Spacer,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Flex, Image, Spacer, Stack, Text } from "@chakra-ui/react";
 import Lady from "../../assets/images/blackLady.png";
 import BlueLine1 from "../../assets/images/Vector2.png";
 import BlueLine2 from "../../assets/images/Vector3.png";
@@ -25,6 +17,10 @@ const Collect = () => {
         justifyContent: "flex-start",
         marginTop: "60px",
         color: "#DFDFDF",
+        "@media (min-width: 1280px) and (max-width: 1919px)": {
+          pl: 7,
+          pr: 7,
+        },
       }}
     >
       <Stack
@@ -34,6 +30,17 @@ const Collect = () => {
         minH={"20vh"}
         position={"relative"}
         flexDirection={"column"}
+        sx={{
+          "@media (min-width: 1440px) and (max-width: 1919px)": {
+            w: "60%",
+            ml: 20,
+          },
+          "@media (min-width: 1280px) and (max-width: 1439px)": {
+            w: "60%",
+            ml: 20,
+            mr: 10,
+          },
+        }}
       >
         <Text
           fontSize={"40px"}
@@ -47,6 +54,9 @@ const Collect = () => {
           lineHeight={"70px"}
           sx={{
             "@media (min-width: 1440px) and (max-width: 1919px)": {
+              w: "100%",
+            },
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
               w: "100%",
             },
           }}
@@ -180,7 +190,22 @@ const Collect = () => {
       </Stack>
 
       {/* Section 1 image */}
-      <Stack mb={20} position={"relative"} zIndex={2}>
+      <Stack
+        mb={20}
+        position={"relative"}
+        zIndex={2}
+        sx={{
+          "@media (min-width: 1280px) and (max-width: 1439px)": {
+            w: "40%",
+            mb: 40,
+          },
+          "@media (min-width: 1440px) and (max-width: 1919px)": {
+            w: "40%",
+            mb: 40,
+            mr: 20,
+          },
+        }}
+      >
         <div className="imageCover"></div>
         <div className="backImage">
           <Image objectFit="cover" src={Lady} alt="James" />
@@ -200,8 +225,13 @@ const Collect = () => {
             WebkitBackdropFilter: "blur(5px)",
             backdropFilter: "blur(5px)",
             "@media (min-width: 1440px) and (max-width: 1919px)": {
-              w: "400px",
-              left: "1.7rem",
+              w: "320px",
+              left: ".7rem",
+              bottom: "-5.2rem",
+            },
+            "@media (min-width: 1280px) and (max-width: 1439px)": {
+              w: "350px",
+              left: "1.4rem",
               bottom: "-5.2rem",
             },
           }}
