@@ -1,23 +1,23 @@
-import React from "react";
-import { Box, Flex, Image, Spacer, Stack, Text } from "@chakra-ui/react";
-import Lady from "../../assets/images/blackLady.png";
-import BlueLine1 from "../../assets/images/Vector2.png";
-import BlueLine2 from "../../assets/images/Vector3.png";
-import Button1 from "../../Utils/Button1";
-import Button2 from "../../Utils/Button2";
+import React from 'react';
+import { Box, Flex, Image, Spacer, Stack, Text } from '@chakra-ui/react';
+import Lady from '../../assets/images/blackLady.png';
+import BlueLine1 from '../../assets/images/Vector2.png';
+import BlueLine2 from '../../assets/images/Vector3.png';
+import Button1 from '../../Utils/Button1';
+import Button2 from '../../Utils/Button2';
 
 const Collect = () => {
   return (
     <Box
-      display={"flex"}
+      display={'flex'}
       py={5}
       mb={10}
       sx={{
-        alignItems: "center",
-        justifyContent: "flex-start",
-        marginTop: "60px",
-        color: "#DFDFDF",
-        "@media (min-width: 1280px) and (max-width: 1919px)": {
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        marginTop: '60px',
+        color: '#DFDFDF',
+        '@media (min-width: 1280px) and (max-width: 1919px)': {
           pl: 7,
           pr: 7,
         },
@@ -27,37 +27,37 @@ const Collect = () => {
         w="40%"
         ml={40}
         mr={60}
-        minH={"20vh"}
-        position={"relative"}
-        flexDirection={"column"}
+        minH={'20vh'}
+        position={'relative'}
+        flexDirection={'column'}
         sx={{
-          "@media (min-width: 1440px) and (max-width: 1919px)": {
-            w: "60%",
+          '@media (min-width: 1440px) and (max-width: 1919px)': {
+            w: '60%',
             ml: 20,
           },
-          "@media (min-width: 1280px) and (max-width: 1439px)": {
-            w: "60%",
+          '@media (min-width: 1280px) and (max-width: 1439px)': {
+            w: '60%',
             ml: 20,
             mr: 10,
           },
         }}
       >
         <Text
-          fontSize={"40px"}
+          fontSize={'40px'}
           textAlign="left"
           textTransform="capitalize"
-          w={"90%"}
-          fontFamily={" Orbitron, sans-serif"}
-          color={"#DFDFDF"}
+          w={'90%'}
+          fontFamily={' Orbitron, sans-serif'}
+          color={'#DFDFDF'}
           fontWeight={600}
           mb={5.5}
-          lineHeight={"70px"}
+          lineHeight={'70px'}
           sx={{
-            "@media (min-width: 1440px) and (max-width: 1919px)": {
-              w: "100%",
+            '@media (min-width: 1440px) and (max-width: 1919px)': {
+              w: '100%',
             },
-            "@media (min-width: 1280px) and (max-width: 1439px)": {
-              w: "100%",
+            '@media (min-width: 1280px) and (max-width: 1439px)': {
+              w: '100%',
             },
           }}
         >
@@ -70,50 +70,50 @@ const Collect = () => {
 
         <Image
           src={BlueLine1}
-          position={"absolute"}
-          left={"250px"}
-          top={"-30px"}
+          position={'absolute'}
+          left={'250px'}
+          top={'-30px'}
           width="170px"
           height="100.86px"
         />
         <Image
           src={BlueLine2}
-          position={"absolute"}
-          left={"255px"}
+          position={'absolute'}
+          left={'255px'}
           width="170px"
           height="91.86px"
-          top={"-10px"}
+          top={'-10px'}
         />
 
         <Text
           fontFamily={"'Ubuntu', sans-serif;"}
-          textAlign={"left"}
+          textAlign={'left'}
           width="85%"
-          fontSize={"26px"}
+          fontSize={'26px'}
           pb={8}
           fontWeight={400}
-          lineHeight={"40px"}
+          lineHeight={'40px'}
         >
           A non-fungible token (NFT) is a non-interchangeable unit of data
           stored on a blockchain, a form of digital wallet.
         </Text>
 
-        <Button1 text={"Explore"} />
+        <Button1 text={'Explore'} />
 
         <Flex
           flexDirection="row"
-          alignItems={"center"}
+          alignItems={'center'}
           justifyContent="flex-start"
           py={9}
         >
           <Stack display="flex" mr={20}>
             <Text
-              fontSize={"36px"}
+              fontSize={'36px'}
               textAlign="left"
               textTransform="capitalize"
-              w={"100%"}
-              fontFamily={" Orbitron, sans-serif"}
-              color={"#DFDFDF"}
+              w={'100%'}
+              fontFamily={' Orbitron, sans-serif'}
+              color={'#DFDFDF'}
               fontWeight={500}
               mb={5.5}
             >
@@ -122,12 +122,12 @@ const Collect = () => {
 
             <Text
               fontFamily={"'Ubuntu', sans-serif;"}
-              textAlign={"center"}
+              textAlign={'center'}
               width="100%"
-              fontSize={"18px"}
+              fontSize={'18px'}
               pb={3}
               fontWeight={400}
-              lineHeight={"20px"}
+              lineHeight={'20px'}
             >
               Artworks
             </Text>
@@ -135,12 +135,12 @@ const Collect = () => {
 
           <Stack display="flex" mr={20}>
             <Text
-              fontSize={"36px"}
+              fontSize={'36px'}
               textAlign="left"
               textTransform="capitalize"
-              w={"100%"}
-              fontFamily={" Orbitron, sans-serif"}
-              color={"#DFDFDF"}
+              w={'100%'}
+              fontFamily={' Orbitron, sans-serif'}
+              color={'#DFDFDF'}
               fontWeight={500}
               mb={5.5}
             >
@@ -149,12 +149,12 @@ const Collect = () => {
 
             <Text
               fontFamily={"'Ubuntu', sans-serif;"}
-              textAlign={"center"}
+              textAlign={'center'}
               width="100%"
-              fontSize={"18px"}
+              fontSize={'18px'}
               pb={3}
               fontWeight={400}
-              lineHeight={"20px"}
+              lineHeight={'20px'}
             >
               Artists
             </Text>
@@ -162,12 +162,12 @@ const Collect = () => {
 
           <Stack display="flex">
             <Text
-              fontSize={"36px"}
+              fontSize={'36px'}
               textAlign="left"
               textTransform="capitalize"
-              w={"100%"}
-              fontFamily={" Orbitron, sans-serif"}
-              color={"#DFDFDF"}
+              w={'100%'}
+              fontFamily={' Orbitron, sans-serif'}
+              color={'#DFDFDF'}
               fontWeight={500}
               mb={5.5}
             >
@@ -176,12 +176,12 @@ const Collect = () => {
 
             <Text
               fontFamily={"'Ubuntu', sans-serif;"}
-              textAlign={"center"}
+              textAlign={'center'}
               width="100%"
-              fontSize={"18px"}
+              fontSize={'18px'}
               pb={3}
               fontWeight={400}
-              lineHeight={"20px"}
+              lineHeight={'20px'}
             >
               Auctions
             </Text>
@@ -192,15 +192,15 @@ const Collect = () => {
       {/* Section 1 image */}
       <Stack
         mb={20}
-        position={"relative"}
+        position={'relative'}
         zIndex={2}
         sx={{
-          "@media (min-width: 1280px) and (max-width: 1439px)": {
-            w: "40%",
+          '@media (min-width: 1280px) and (max-width: 1439px)': {
+            w: '40%',
             mb: 40,
           },
-          "@media (min-width: 1440px) and (max-width: 1919px)": {
-            w: "40%",
+          '@media (min-width: 1440px) and (max-width: 1919px)': {
+            w: '40%',
             mb: 40,
             mr: 20,
           },
@@ -212,53 +212,53 @@ const Collect = () => {
         </div>
 
         <Flex
-          flexDirection={"column"}
-          w={"451px"}
-          minH={"186px"}
+          flexDirection={'column'}
+          w={'451px'}
+          minH={'186px'}
           position="absolute"
           zIndex={3}
           sx={{
-            bottom: "-3.2rem",
-            left: "2.7rem",
+            bottom: '-3.2rem',
+            left: '2.7rem',
             background:
-              " linear-gradient(92.17deg, #EFEFEF -3.11%, rgba(239, 239, 239, 0.5) -3.1%, rgba(239, 239, 239, 0.09) 106.54%)",
-            WebkitBackdropFilter: "blur(5px)",
-            backdropFilter: "blur(5px)",
-            "@media (min-width: 1440px) and (max-width: 1919px)": {
-              w: "320px",
-              left: ".7rem",
-              bottom: "-5.2rem",
+              ' linear-gradient(92.17deg, #EFEFEF -3.11%, rgba(239, 239, 239, 0.5) -3.1%, rgba(239, 239, 239, 0.09) 106.54%)',
+            WebkitBackdropFilter: 'blur(5px)',
+            backdropFilter: 'blur(5px)',
+            '@media (min-width: 1440px) and (max-width: 1919px)': {
+              w: '320px',
+              left: '.7rem',
+              bottom: '-5.2rem',
             },
-            "@media (min-width: 1280px) and (max-width: 1439px)": {
-              w: "350px",
-              left: "1.4rem",
-              bottom: "-5.2rem",
+            '@media (min-width: 1280px) and (max-width: 1439px)': {
+              w: '350px',
+              left: '1.4rem',
+              bottom: '-5.2rem',
             },
           }}
         >
           <div className="item">
             <Box
-              opacity={"1"}
-              display={"flex"}
-              flexDirection={"column"}
+              opacity={'1'}
+              display={'flex'}
+              flexDirection={'column'}
               textAlign="left"
               gap={2}
             >
               <Text
-                fontSize={"16px"}
+                fontSize={'16px'}
                 fontFamily={"'Ubuntu', sans-serif;"}
                 fontWeight={400}
-                color={"#DFDFDF"}
+                color={'#DFDFDF'}
               >
                 CURRENT BID
               </Text>
 
               <Text
-                fontSize={"14px"}
+                fontSize={'14px'}
                 fontFamily={"'Ubuntu', sans-serif;"}
                 fontWeight={700}
-                color={"#DFDFDF"}
-                lineHeight={"20px"}
+                color={'#DFDFDF'}
+                lineHeight={'20px'}
               >
                 1.02 ETH
               </Text>
@@ -266,22 +266,22 @@ const Collect = () => {
 
             <Spacer />
 
-            <Box display={"flex"} flexDirection={"column"} gap={2}>
+            <Box display={'flex'} flexDirection={'column'} gap={2}>
               <Text
-                fontSize={"16px"}
+                fontSize={'16px'}
                 fontFamily={"'Ubuntu', sans-serif;"}
                 fontWeight={400}
-                color={"#DFDFDF"}
+                color={'#DFDFDF'}
                 textAlign="right"
               >
                 ENDS IN
               </Text>
               <Text
-                fontSize={"14px"}
+                fontSize={'14px'}
                 fontFamily={"'Ubuntu', sans-serif;"}
                 fontWeight={700}
-                color={"#DFDFDF"}
-                lineHeight={"20px"}
+                color={'#DFDFDF'}
+                lineHeight={'20px'}
               >
                 ADD TIMER
               </Text>
@@ -290,26 +290,26 @@ const Collect = () => {
 
           <div className="item">
             <Box
-              display={"flex"}
-              flexDirection={"column"}
+              display={'flex'}
+              flexDirection={'column'}
               gap={2}
-              textAlign={"left"}
+              textAlign={'left'}
             >
               <Text
-                fontSize={"16px"}
+                fontSize={'16px'}
                 fontFamily={"'Ubuntu', sans-serif;"}
                 fontWeight={400}
-                color={"#DFDFDF"}
+                color={'#DFDFDF'}
               >
                 OWNER
               </Text>
 
               <Text
-                fontSize={"14px"}
+                fontSize={'14px'}
                 fontFamily={"'Ubuntu', sans-serif;"}
                 fontWeight={700}
-                color={"#DFDFDF"}
-                lineHeight={"20px"}
+                color={'#DFDFDF'}
+                lineHeight={'20px'}
               >
                 JAMES
               </Text>
@@ -318,7 +318,7 @@ const Collect = () => {
             <Spacer />
 
             <Box>
-              <Button2 width={"130px"} text={"Start Bid"} />
+              <Button2 width={'130px'} text={'Start Bid'} />
             </Box>
           </div>
         </Flex>
