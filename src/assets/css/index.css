@@ -2,7 +2,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 
@@ -11,6 +10,7 @@ body {
     height: 100%;
     position: absolute;
     filter: blur(120px);
+  -webkit-filter: blur(120px);
     background-image: radial-gradient(circle,#115C6E,#115C6E);
     z-index: -1;
     margin-top: 20px;
@@ -19,11 +19,11 @@ body {
 .filterblur{
   width: 50%;
   height: 50%;
-  border: 2px solid red;
   position: absolute;
   right: 200px;
   filter: blur(450px);
-  background: radial-gradient(circle, #DA30BC -6.36%, #7E08C0 101.72%);
+  -webkit-filter: blur(450px);
+  background: radial-gradient(circle, #DA30BC 6.36%, #7E08C0 101.72%);
 }
 
 .backImage::after{
